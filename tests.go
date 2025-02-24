@@ -12,6 +12,7 @@ func TestRemovingDuplicates(s strOperations) {
 	}
 }
 
+
 // Function to test the AddValueAtIndex function
 func TestAddingValueAtIndex(s strOperations, toAdd interface{}, position int) {
 	_, err := s.AddValueAtIndex(toAdd, position)
@@ -20,7 +21,7 @@ func TestAddingValueAtIndex(s strOperations, toAdd interface{}, position int) {
 	}
 }
 
-// Function to test the DeleteValue function
+//  Function to test the DeleteValue function
 func TestDeletingCharValue(s strOperations, toDelete rune) {
 	_, err := s.DeleteCharValue(toDelete)
 	if err != nil {
